@@ -1,0 +1,122 @@
+@font-face{
+    font-family: "Monster Melted";
+    src: url(./melted-monster.ttf)
+}
+
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/street-town-night-street-town-night-cityscape-old-apartment-houses-light-windows-cartoon-vector-175170620.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.corpo{
+    background-color: black;
+    color:red;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    margin: 20px;
+    padding: 10vw;
+}
+
+h1{
+    font-family:"Monster Melted";
+}
+
+button{
+    color: red;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 150%;
+    border: 5px red solid   
+}
+
+.suspeitos{
+    width: 480px
+}
+
+.fase{
+    background-color: black;
+    color:red;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    margin: 20px;
+    padding: 10vw;
+}
+
+.bfase{
+    font-size: 80%;
+    margin: 10px
+}
+
+ol{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+.portrait{
+    width: 100px;
+    height: 100px;
+}
+
+.fimdejogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameover{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+    margin: 20px; 
+    background-color: black;
+    color:red;
+    width: 1000px;
+    height: 700px;
+    padding: 5%
+}
+
+.vitoria{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    margin: 20px; 
+    background-color: white;
+    color:blue;
+    width: 1000px;
+    height: 700px;
+    padding: 5%
+}
+
+.win{
+    font-family: fantasy;
+}
+
+.bwin{
+    color: blue;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 150%;
+    border: 5px blue solid   
+}
+ li{
+     display: flex;
+     flex-flow: row nowrap;
+ }
+
+ img{
+     flex-shrink: 5;
+ }
+
