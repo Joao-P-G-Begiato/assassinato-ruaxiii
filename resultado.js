@@ -21,7 +21,7 @@ function ganharOuPerder (){
                 ameaçava com o tesourão, dizendo para ela começar a tratar as outras pessoas de uma maneira melhor, 
                 porém Clotilde reagiu e conseguiu soltar uma das mãos, fazendo com que Ramon cortasse a mão e Thiago
                 que sem querer esbarrou a mão ensanguentava na manga de Margareth e Clotilde com uma das mãos livres
-                puxou a máscara de Ramon que acabou sendo exposto e decidiu então que precisaria matá-la.
+                puxou a máscara de Ramon que acabou sendo exposto e decidiu então que precisaria matá-la. <br><br>
 
             <a href="./index.html">
                 <button class="bwin">
