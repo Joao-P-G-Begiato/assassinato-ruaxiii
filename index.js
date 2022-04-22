@@ -1,4 +1,8 @@
-var nomeDetetive = prompt(`Olá detetive, qual seu nome?`)
+var nomeDetetive = prompt(`Olá detetive, qual seu nome? (deve ter no mínimo duas letras)`)
+
+while (nomeDetetive==null || nomeDetetive.length < 2){
+    nomeDetetive = prompt(`Olá detetive, qual seu nome?(deve ter no mínimo duas letras)`)
+}
 
 
 document.write(
