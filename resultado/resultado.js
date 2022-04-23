@@ -23,7 +23,7 @@ function ganharOuPerder (){
                 que sem querer esbarrou a mão ensanguentava na manga de Margareth e Clotilde com uma das mãos livres
                 puxou a máscara de Ramon que acabou sendo exposto e decidiu então que precisaria matá-la. <br><br>
 
-            <a href="./index.html">
+            <a href="../index.html">
                 <button class="bwin">
                     Retorne ao início
                 </button>
@@ -44,7 +44,7 @@ function ganharOuPerder (){
                 informações<br><br>
             </h3>
 
-            <a href="./index.html">
+            <a href="../index.html">
                 <button>
                      Retorne ao início
                  </button>
