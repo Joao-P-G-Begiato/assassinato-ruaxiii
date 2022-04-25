@@ -48,7 +48,11 @@ button{
     margin: 1.5rem;
     padding: 4rem;
 }
-
+nav{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
 .bfase{
     font-size: 60%;
     margin: 10px

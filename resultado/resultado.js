@@ -11,7 +11,7 @@ var resultado = prompt("Escolhar o número da opção correta, relembrando: 1- M
 function ganharOuPerder (){
     if(resultado==7){
         document.write(`  
-        <div class="vitoria">
+        <section class="vitoria">
             <h1 class="win"> Vitória </h1><br>
             <h3> Parabéns Detetive, você conseguiu desvendar esse mistério. </h3>
 
@@ -22,17 +22,18 @@ function ganharOuPerder (){
                 porém Clotilde reagiu e conseguiu soltar uma das mãos, fazendo com que Ramon cortasse a mão e Thiago
                 que sem querer esbarrou a mão ensanguentava na manga de Margareth e Clotilde com uma das mãos livres
                 puxou a máscara de Ramon que acabou sendo exposto e decidiu então que precisaria matá-la. <br><br>
-
-            <a href="../index.html">
-                <button class="bwin">
-                    Retorne ao início
-                </button>
-            </a>
-        </div>
+            <nav>
+                <a href="../index.html">
+                    <button class="bwin">
+                        Retorne ao início
+                    </button>
+                </a>
+            </nav>
+        </section>
         `)
     } else{
         document.write(`
-        <div class="gameover">
+        <section class="gameover">
             <h1> GAME OVER </h1><br>
             <h3> 
             Você deixou o assasino fugir<br><br><br>
@@ -44,12 +45,14 @@ function ganharOuPerder (){
                 informações<br><br>
             </h3>
 
-            <a href="../index.html">
-                <button>
-                     Retorne ao início
-                 </button>
-            </a>
-        </div>
+            <nav>
+                <a href="../index.html">
+                    <button>
+                         Retorne ao início
+                    </button>
+                </a>
+            </nav>
+        </section>
         `)
     }
 }

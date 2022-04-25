@@ -6,7 +6,7 @@ while (nomeDetetive==null || nomeDetetive.length < 2){
 
 
 document.write(
-`<div class="corpo">
+`<section class="corpo">
     <h1>Assassinato na Rua XIII.</h1>
         <p>
         A rua XIII sempre foi conhecida por ser calma e tranquila, uma vizinhança pacata onde até mesmo as 
@@ -15,9 +15,10 @@ document.write(
         na rua desde que era criança. E você caro Detetive <em><strong id="detetive"> ${nomeDetetive} </em> </strong>
         foi selecionado para investigar o assassinato que ocorreu ali.
         </p>
-
-        <a href="./entroncamento.html">
-            <button> Iniciar o Jogo </button>
-        </a>
-</div>`
+        <nav>
+            <a href="./entroncamento.html">
+                <button> Iniciar o Jogo </button>
+            </a>
+        </nav>
+</section>`
 )
