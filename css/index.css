@@ -9,8 +9,16 @@ html{
     background-size: cover;
 }
 
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .corpo{
     background-color: black;
+    opacity: 0.9;
     color:red;
     display: flex;
     flex-flow: row wrap;
@@ -39,6 +47,7 @@ button{
 
 .fase{
     background-color: black;
+    opacity: 0.85;
     color:red;
     display: flex;
     flex-flow: column wrap;
@@ -100,6 +109,7 @@ ol{
     font-size: 200%;
     margin: 20px; 
     background-color: black;
+    opacity: 0.85;
     color:red;
     padding: 3rem
 }
@@ -112,6 +122,7 @@ ol{
     font-size: 150%;
     margin: 20px; 
     background-color: white;
+    opacity: 0.85;
     color:blue;
     padding: 3rem;
 }
@@ -126,6 +137,18 @@ ol{
     border-radius: 20px;
     font-size: 150%;
     border: 5px blue solid   
+}
+
+footer{
+    color:white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 0.8em;
+    opacity: 0.8;
+    width:25rem;
 }
 
 .bwin:hover{

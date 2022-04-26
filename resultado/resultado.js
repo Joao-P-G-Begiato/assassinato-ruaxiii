@@ -30,6 +30,11 @@ function ganharOuPerder (){
                 </a>
             </nav>
         </section>
+        <footer>
+        Desenvolvido por: João Paulo Gotardi Begiato<br>
+        Roteiro e Enredo: Squad 5 - Os Sobreviventes<br>
+        Todos os Direitos Reservados
+      </footer>
         `)
     } else{
         document.write(`
@@ -53,6 +58,11 @@ function ganharOuPerder (){
                 </a>
             </nav>
         </section>
+        <footer>
+        Desenvolvido por: João Paulo Gotardi Begiato<br>
+        Roteiro e Enredo: Squad 5 - Os Sobreviventes<br>
+        Todos os Direitos Reservados
+      </footer>
         `)
     }
 }

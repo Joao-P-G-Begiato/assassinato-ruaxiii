@@ -20,5 +20,10 @@ document.write(
                 <button> Iniciar o Jogo </button>
             </a>
         </nav>
-</section>`
+</section>
+<footer>
+Desenvolvido por: João Paulo Gotardi Begiato<br>
+Roteiro e Enredo: Squad 5 - Os Sobreviventes<br>
+Todos os Direitos Reservados
+</footer>`
 )
